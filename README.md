@@ -14,7 +14,8 @@
 
 Here is a screenshot of the project:
 
-![Screenshot](URL_TO_SCREENSHOT)
+![HomePage](https://raw.githubusercontent.com/YSCodez/figma-2-react/main/src/img/homepage.png)
+![FromPage](https://raw.githubusercontent.com/YSCodez/figma-2-react/main/src/img/formpage.png)
 
 ## Technologies Used
 
@@ -55,7 +56,7 @@ To get a local copy up and running, follow these steps:
 5. **Open your browser and navigate to http://localhost:3000 to see the application.**
 
 ## Live Demo
-- You can view the live demo of this project at [Deployed Link].
+- You can view the live demo of this project at [Deployed Link](https://figma-reactch2.netlify.app/).
 
 ## Design Reference
 - The design for this project was sourced from the Figma community. You can view and explore the original design [here](https://www.figma.com/design/4rZ5WMR5b7iB5quCJGGya3/FigmaPractice-2?node-id=0-1&t=yEE2S4GlOiy9zsxe-1).
