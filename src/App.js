@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path={'/'} element={<Home />} />
-        <Route exact path={'/form'} element={<AuthForm />} />
+        <Route exact path={'/login'} element={<AuthForm />} />
       </Routes>
     </BrowserRouter>
   );
