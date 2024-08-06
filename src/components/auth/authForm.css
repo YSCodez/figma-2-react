@@ -9,7 +9,6 @@
     background-color: #2F1893;
 }
 
-/* Container holding left text and form */
 .container {
     display: flex;
     align-items: center;
@@ -20,7 +19,6 @@
     color: white;
 }
 
-/* Left text styling */
 .leftText {
     flex: 1;
     text-align: left;
@@ -28,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 2rem;
-    /* Add space between leftText and formContainer */
 }
 
 .leftText h1 {
@@ -41,45 +38,31 @@
     font-size: 1.2rem;
 }
 
-/* Form container styling */
 .formContainer {
     flex: 1;
     max-width: 500px;
     min-height: 400px;
     background-color: rgba(255, 255, 255, 0.9);
-    /* White with 90% opacity */
     padding: 4rem 1.5rem 1.5rem;
-    /* Added top padding to make space for the nav */
     border-radius: 1rem;
-    /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Light shadow for depth */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    /* Position relative for positioning nav inside */
 }
 
-
-/* Navigation buttons within the form */
 .formNav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* Ensure full width for space adjustment */
     margin-bottom: 1.5rem;
     width: 100%;
-    /* Ensure full width for space adjustment */
     position: absolute;
-    /* Positioning inside formContainer */
     top: 1rem;
-    /* Space from the top of the formContainer */
-    /* Reduced space between formNav and the form */
 }
 
-/* Individual navigation button */
 .navButton {
     font-size: 1.125rem;
     font-weight: 600;
@@ -88,113 +71,77 @@
     cursor: pointer;
     padding-bottom: 0.5rem;
     flex: 1;
-    /* Allow buttons to take equal space */
     text-align: center;
 }
 
-/* Active state for navigation buttons */
 .navButton.active {
     color: #3b82f6;
-    /* Tailwind's blue-500 color */
     border-bottom: 2px solid #3b82f6;
-    /* Tailwind's blue-500 color */
 }
 
-/* Input field styling */
 .inputField {
     width: 100%;
-    /* Adjust to full width for better responsiveness */
     max-width: 400px;
-    /* Limit the maximum width for better layout control */
     padding: 0.75rem;
-    /* Adjust padding for better spacing */
     border: 1px solid #d1d5db;
-    /* Slightly darker border color for better contrast */
     border-radius: 0.75rem;
-    /* Increased border radius */
     margin-bottom: 0.75rem;
     margin-left: 5%;
-    /* Reduced space between input fields */
     font-size: 1rem;
-    /* Improved font size for better readability */
     color: #333;
-    /* Darker text color for better contrast */
     background-color: #fff;
-    /* White background for a clean look */
     transition: border-color 0.3s, box-shadow 0.3s;
-    /* Smooth transitions for focus effects */
-    /* Center align placeholder text */
 }
 
 .inputField::placeholder {
     color: #9ca3af;
-    /* Lighter color for placeholder text */
 }
 
 .inputField:focus {
     outline: none;
-    /* Remove default outline */
     border-color: #3b82f6;
-    /* Tailwind's blue-500 color for focus state */
     box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
-    /* Subtle shadow effect for focus */
 }
 
-/* Optional: For error state */
 .inputField.error {
     border-color: #f87171;
-    /* Tailwind's red-400 color for error */
     background-color: #fee2e2;
-    /* Tailwind's red-100 color for error background */
 }
 
 .inputField.error::placeholder {
     color: #f87171;
-    /* Tailwind's red-400 color for error placeholder */
 }
 
-/* Center and reduce width of buttons */
 .submitButton,
 .socialButton {
     width: 100%;
-    /* Reset width to auto to use max-width */
     max-width: 400px;
-    /* Match the max-width of input fields */
     padding: 0.75rem;
     border: none;
     border-radius: 0.375rem;
-    /* Tailwind's rounded-md */
     cursor: pointer;
     display: block;
-    /* Ensure buttons are block-level elements for width adjustments */
     margin: 0 auto 1rem;
-    /* Center the buttons and add space below */
 }
 
 .submitButton {
     background-color: #10b981;
-    /* Tailwind's green-500 color */
     color: white;
 }
 
 .submitButton:hover {
     background-color: #059669;
-    /* Tailwind's green-600 color */
 }
 
 .socialButton {
     background-color: #3b82f6;
-    /* Tailwind's blue-500 color */
     color: white;
 }
 
 .socialButton:hover {
     background-color: #2563eb;
-    /* Tailwind's blue-600 color */
 }
 
-
-/* Divider styling */
 .divider {
     text-align: center;
     margin: 1rem 0;
@@ -202,5 +149,4 @@
 
 .divider span {
     color: #6b7280;
-    /* Tailwind's gray-500 color */
 }
