@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../auth/authForm.css';
-import '../../Navbar';
 
 export default function AuthForm() {
   const [isSignup, setIsSignup] = useState(true);

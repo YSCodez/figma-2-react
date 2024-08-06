@@ -106,7 +106,7 @@
     /* Adjust to full width for better responsiveness */
     max-width: 400px;
     /* Limit the maximum width for better layout control */
-    padding: 0.7rem 1.2rem;
+    padding: 0.75rem;
     /* Adjust padding for better spacing */
     border: 1px solid #d1d5db;
     /* Slightly darker border color for better contrast */
